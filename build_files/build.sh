@@ -19,8 +19,8 @@ dnf5 install -y tmux
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
-dnf5 copr enable sneexy/python-validity
-dnf5 install -y open-fprintd fprintd-clients fprintd-clients-pam python3-validity
+dnf5 -y copr enable sneexy/python-validity
+dnf5 -y install open-fprintd fprintd-clients fprintd-clients-pam python3-validity
 
 #### Example for enabling a System Unit File
 
