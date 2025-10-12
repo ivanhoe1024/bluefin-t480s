@@ -24,9 +24,5 @@ dnf5 install -y tmux
 dnf5 -y copr enable sneexy/python-validity
 dnf5 -y install open-fprintd fprintd-clients fprintd-clients-pam python3-validity
 
-# Virtualization
-dnf5 -y install @virtualization
-systemctl enable libvirtd.service
-
 
 systemctl enable podman.socket
