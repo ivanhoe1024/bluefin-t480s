@@ -26,5 +26,7 @@ dnf5 -y install open-fprintd fprintd-clients fprintd-clients-pam python3-validit
 
 # Virtualization
 dnf5 -y install @virtualization
+systemctl enable libvirtd.service
+
 
 systemctl enable podman.socket
