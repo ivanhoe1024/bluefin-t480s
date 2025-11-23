@@ -26,7 +26,7 @@ dnf5 -y install open-fprintd fprintd-clients fprintd-clients-pam python3-validit
 
 # DankLinux  Shell
 dnf5 -y copr enable avengemedia/dms
-dnf5 -y install dms dgop dsearch ghostty
+dnf5 -y install niri dms dgop dsearch ghostty
 
 
 systemctl enable podman.socket
