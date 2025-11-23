@@ -24,5 +24,9 @@ dnf5 install -y tmux
 dnf5 -y copr enable sneexy/python-validity
 dnf5 -y install open-fprintd fprintd-clients fprintd-clients-pam python3-validity
 
+# DankLinux  Shell
+dnf5 -y copr enable avengemedia/dms
+dnf5 -y install dms dgop dsearch ghostty
+
 
 systemctl enable podman.socket
